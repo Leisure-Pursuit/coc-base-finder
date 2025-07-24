@@ -1,2 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)  // 👈 change this line
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 rootProject.name = "coc-base-finder"
 include ':app'
